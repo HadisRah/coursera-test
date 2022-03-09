@@ -1,0 +1,58 @@
+/**Desktop View**/
+*{
+	box-sizing:border-box;
+	margin:0;
+}
+body,html{
+	font-family:"tahoma",arial;
+}
+h1{
+	font-size:1.75em;
+	text-align:center;
+}
+.pink-bg{background-color:pink;}
+.red-bg{background-color:red;}
+.yellow-bg{background-color:yellow;}
+.menu > div{
+	float:left;
+	padding:20px 20px 10px;
+	
+}
+.menu .food-title{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:1.25em;
+	border:solid 1px #000000;
+	border-right:none;
+	border-top:none;
+	margin:0;
+	padding:2px 15px;
+}
+.menu .menu-item{
+	position:relative;
+	background:#cecece;
+	border: solid 1px #000000;
+	padding: 40px 20px 20px;
+	text-align:justify;
+}
+@media (min-width:992px){
+	.col-lg-4{
+			width:33%;
+		}
+}
+/**Tablet View**/
+@media (min-width:768px) and (max-width:991px){
+	.col-md-6{
+			width:50%;
+		}
+		.col-md-12{
+			width:100%;
+		}
+}
+/**Mobile View**/
+@media (max-width:767px){
+	.col-xs-12{
+			width:100%;
+		}
+}
